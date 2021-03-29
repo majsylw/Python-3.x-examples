@@ -48,7 +48,7 @@ def silnia_ogonowa(n, accumulator=1):
   else: return silnia_ogonowa(n-1, accumulator * n)
 ```
 
-## Płytka, a głeboka kopia
+## Płytka, a głęboka kopia
 
 Zanim przejdziemy do sortowania, zatrzymajmy się na chwilę na omówieniu kopi w pythonie.
 Zmienna (w każdym języku programowania) jest aliasem (nazwą) na miejsce w pamięci komputera.
@@ -96,14 +96,14 @@ print(b)  # [[1, 'x'], [3, 4]]
 ```
 
 Jak widać w powyższym przykładzie, podczas gdy modyfikujemy wewnętrzne elementy listy w nowej liście, 
-jest ona również aktualizowana na oryginalnej liście, ponieważ a[0]i b[0]nadal wskazuje ten sam adres pamięci (oryginalna lista).
-Tak więc nowa lista bma swój własny adres pamięci, ale jej elementy nie. Dzieje się tak dlatego, że w płytkiej kopii, zamiast kopiować elementy listy do nowego obiektu, po prostu kopiuje odwołania do ich adresów pamięci. 
+jest ona również aktualizowana na oryginalnej liście, ponieważ ```a[0]``` i ```b[0]``` nadal wskazuje ten sam adres pamięci (oryginalna lista).
+Tak więc nowa lista ```b``` ma swój własny adres pamięci, ale jej elementy nie. Dzieje się tak dlatego, że w płytkiej kopii, zamiast kopiować elementy listy do nowego obiektu, po prostu kopiuje odwołania do ich adresów pamięci. 
 Dlatego gdy wprowadzamy zmiany w oryginalnym obiekcie, jest to odzwierciedlane w skopiowanych obiektach i odwrotnie.
 Jest to cecha charakterystyczna dla płytkiej kopii.
 
 ### Głęboka kopia
 
-*Głęboka kopia* tworzy nowy obiekt złożony, a następnie rekurencyjnie wstawia do niego kopie obiektów znalezionych w oryginale. 
+Głęboka kopia (*deep copy*) tworzy nowy obiekt złożony, a następnie rekurencyjnie wstawia do niego kopie obiektów znalezionych w oryginale. 
 Tworzenie głębokiej kopii jest wolniejsze, ponieważ tworzysz nowe kopie wszystkiego. W tym przypadku, zamiast tylko kopiować 
 adresy obiektów złożonych, po prostu tworzy pełną kopię wszystkich elementów listy (obiektów prostych i złożonych) oryginalnej listy i przydziela inny adres pamięci dla nowej listy, a następnie przypisuje im skopiowane elementy.
 

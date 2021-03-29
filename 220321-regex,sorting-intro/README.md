@@ -188,7 +188,9 @@ Więcej o metodzie `sort` i funkcji `sorted` znajdziesz w [Dokumentacji](https:/
 
 ## Ocena złożoności algorytmu
 
-Teoria obliczeń to dział informatyki. Jedną z gałęzi tego działu jest teoria złożoności obliczeniowej. W uproszczeniu można powiedzieć, że zajmuje się ona oszacowaniem wydajności czasowej i pamięciowej algorytmów. Teoria złożoności obliczeniowej bazuje na wielu modelach, które służą do łatwego porównywania algorytmów. Złożoność obliczeniową określamy jako funkcję danych wejściowych algorytmu. Notacja `Ο` jest najczęściej spotykana do określania złożoności algorytmów. Jest to oszacowanie z góry, zatem jeśli algorytm ma złozoność `O(n^2)` to ma także złozoność `O(n^3)` - jednak `Ο(n^2)` może być najlepszym oszacowaniem złożoności danego algorytmu. Możesz sobie wyobrazić, że w przypadku algorytmów sortujących, dany zapis mówi o tym, że przy dołożeniu kolejnych elementów do sortowanej tablicy (listy czy też krotki) czas wykonywania się algorytmów wzrośnie kwadratowo.
+Teoria obliczeń to dział informatyki. Jedną z gałęzi tego działu jest teoria złożoności obliczeniowej. W uproszczeniu można powiedzieć, że zajmuje się ona oszacowaniem wydajności czasowej i pamięciowej algorytmów. Teoria złożoności obliczeniowej bazuje na wielu modelach, które służą do łatwego porównywania algorytmów. Złożoność obliczeniową określamy jako funkcję danych wejściowych algorytmu. Notacja `Ο` jest najczęściej spotykana do określania złożoności algorytmów. Jest to oszacowanie z góry, zatem jeśli algorytm ma złozoność O(n<sup>2</sup>) to ma także złozoność O(n<sup>3</sup>) - jednak O(n<sup>2</sup>) może być najlepszym oszacowaniem złożoności danego algorytmu. Możesz sobie wyobrazić, że w przypadku algorytmów sortujących, dany zapis mówi o tym, że przy dołożeniu kolejnych elementów do sortowanej tablicy (listy czy też krotki) czas wykonywania się algorytmów wzrośnie kwadratowo.
+
+Więcej na temat notacji Dużego O znajdziecie [TUTAJ](https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/).
 
 ## Sortowanie bąbelkowe
 
