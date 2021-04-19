@@ -8,4 +8,5 @@ Some notes for python consultations in summer semester 2020/21
 3. Sorting methods - more advanced concepts: *29.03.21* [ZOOM]
 4. Monte Carlo Method - an overview: *12.04.21* [ZOOM]
 5. Exceptions in python: *19.04.21* [ZOOM]
-6. ...
+6. Introduction to object programming - classes: *26.04.21* [ZOOM]
+7. ...
