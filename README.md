@@ -10,5 +10,5 @@ Some notes for python consultations in summer semester 2020/21
 5. Exceptions in python: *19.04.21* [ZOOM]
 6. Introduction to object programming - classes: *26.04.21* [ZOOM]
 7. Introduction to object programming - special metods (operator overloading): *17.05.21* [ZOOM]
-8. Decorators - numba library: *24.05.21*
+8. Decorators - special functions: *24.05.21* [notes]
 9. ...
