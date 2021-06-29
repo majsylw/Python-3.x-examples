@@ -12,4 +12,3 @@ Some notes for python consultations in summer semester 2020/21
 7. Introduction to object programming - special metods (operator overloading): *17.05.21* [ZOOM]
 8. Decorators - special functions: *24.05.21* [notes]
 9. Euler method - numerical procedure for solving ordinary differential equations: *31.05.21* [notes]
-10. ...
